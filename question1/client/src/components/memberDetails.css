@@ -1,0 +1,120 @@
+/* Style for form inputs */
+/* .form-control {
+    margin-bottom: 15px;
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%; 
+    font-size: 14px;
+}
+
+.file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .file-input-label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+span
+{
+    font-weight: bold;
+}
+
+.container {
+    padding-top: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #567e9a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #d1a17a;
+} */
+.allPage {
+  background-color: #b9f3f1; /* Apply to the entire page */
+}
+
+.form-control {
+  margin-bottom: 15px;
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%; /* Change to a smaller percentage value or a fixed width */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.file-input-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-input-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+.button {
+  background-color: #000000; /* Blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #ffffff; /* Darker blue */
+  color: black;
+}
+.container {
+  background-color: #b9f3f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

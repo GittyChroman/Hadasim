@@ -1,0 +1,81 @@
+
+  .allPage{
+    background-color: #b9f3f1;
+  }
+  .member-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.member-table th,
+.member-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Border around cells */
+    font-family: "Arial", sans-serif; /* Change font family */
+    font-size: 14px; /* Change font size */
+}
+
+.member-table th {
+    background-color: #95bfc0;
+    color: #ffffff; /* Dark grey */
+    font-weight: bold;
+}
+
+.member-table tbody tr {
+    background-color: #5c7171; /* Light grey */
+    color: white;
+}
+
+.member-table tbody tr:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.header {
+    background-color: #b9f3f1; /* Green */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header button {
+    background-color: #000000; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header button:hover {
+    background-color: #ffffff; /* Darker blue */
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+  }
+  
